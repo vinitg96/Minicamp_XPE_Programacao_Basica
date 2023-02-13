@@ -21,3 +21,5 @@ dois números:
 ## Resultado
 Deploy da aplicação realizado via [Netlify App](https://super-calculadora-xpe-vinicius.netlify.app/)
 
+![preview super calculadora](../img/super_calculadora.png)
+
