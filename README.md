@@ -8,4 +8,7 @@ Projetos Realizados Durante o Minicamp de Programação Básica Ofertado pela XP
 
 - Super Calculadora: [Código Fonte](https://github.com/vinitg96/Minicamp_XPE_Programacao_Basica/tree/main/super_calculadora) | [Web Site](https://super-calculadora-xpe-vinicius.netlify.app/)
 
-![preview super calculadora](./img/super_calculadora.png)
+<a href="https://super-calculadora-xpe-vinicius.netlify.app/">
+  <img src="./img/super_calculadora.png" alt="Web Site da Aplicação" width="" height="" />
+</a>
+
