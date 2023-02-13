@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Super Calculadora</title>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <main>
+      <div class="topo">
+        <h1>Super Calculadora</h1>
+        <div class="input">
+          <label for="inputA"> Primeiro Número (A) </label>
+          <input id="inputA" type="number" value="10" />
+
+          <label for="inputB"> Segundo Número (B) </label>
+          <input id="inputB" type="number" value="10" />
+
+          <button id="button-calculate">Calcular</button>
+        </div>
+      </div>
+
+      <div class="area_tela">
+        <div class="container">
+          <div class="square">
+            Soma <br />
+            <span id="sum-result"></span>
+          </div>
+          <div class="square">
+            Subtração A-B <br />
+            <span id="subt1-result"></span>
+          </div>
+          <div class="square">
+            Subtração B-A <br />
+            <span id="subt2-result"></span>
+          </div>
+        </div>
+
+        <div class="container">
+          <div class="square">
+            Multiplicação <br />
+            <span id="mult-result"></span>
+          </div>
+          <div class="square">
+            Divisão A / B <br />
+            <span id="div1-result"></span>
+          </div>
+          <div class="square">
+            Divisão B / A <br />
+            <span id="div2-result"></span>
+          </div>
+        </div>
+
+        <div class="container">
+          <div class="square">
+            Potência de A na base B <br />
+            <span id="pot1-result"></span>
+          </div>
+          <div class="square">
+            Potência de B na base A <br />
+            <span id="pot2-result"></span>
+          </div>
+          <div class="square">
+            Raiz quadrada de A <br />
+            <span id="raiz1-result"></span>
+          </div>
+        </div>
+
+        <div class="container">
+          <div class="square">
+            Raiz quadrada de B <br />
+            <span id="raiz2-result"></span>
+          </div>
+
+          <div class="square">
+            Fatorial de A <br />
+            <span id="fat1-result"></span>
+          </div>
+
+          <div class="square">
+            Fatorial de B <br />
+            <span id="fat2-result"></span>
+          </div>
+        </div>
+
+        <div class="container">
+          <div class="square">
+            Porcentagem de A em relação a B <br /><span
+              id="perc1-result"
+            ></span>
+          </div>
+          <div class="square">
+            Porcentagem de B em relação a A <br />
+            <span id="perc2-result"></span>
+          </div>
+
+          <div class="square">
+            Média <br />
+            <span id="med-result"></span>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <script defer src="./js/script.js"></script>
+  </body>
+</html>
