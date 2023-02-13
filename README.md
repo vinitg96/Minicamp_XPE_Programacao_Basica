@@ -1,5 +1,5 @@
 <a href="https://www.xpeducacao.com.br/">
-  <img src="./img/xpe_logo.jpeg" alt="site XPE" width="125" height="90" />
+  <img src="./img/xpe_logo.jpeg" alt="site XPE" width="149" height="85" />
 </a>
 
 
