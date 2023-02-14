@@ -7,4 +7,4 @@ Construção de um currículo simples utilizando HTML.
 - Estilizar com CSS
 
 ## Resultado
-<img src="./img/curriculoV2.png" alt="Preview Curriculo V2" width="" height="" />
+<img src="../img/curriculoV2.png" alt="Preview Curriculo V2" width="" height="" />
