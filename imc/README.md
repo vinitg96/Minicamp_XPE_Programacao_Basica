@@ -6,4 +6,8 @@
 ## Resultado
 Deploy da aplicação realizado via [Netlify App](https://imc-xpe-vinicius.netlify.app/)
 
-<img src="../img/imc.png" alt="Preview IMC" width="" height="" />
+
+<a href="https://imc-xpe-vinicius.netlify.app/">
+  <img src="./img/imc.png" alt="Preview IMC" width="" height="" />
+</a>
+
