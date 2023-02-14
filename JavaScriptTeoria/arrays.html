@@ -1,0 +1,28 @@
+<html>
+    <script>
+        var carros = ["Gol", "Palio", "Uno"];
+        console.log(carros);
+
+        var primeiroCarro = carros[0]
+
+        console.log("primeira posicao: " + primeiroCarro)
+
+        //acessar ultimo elemento do array
+        console.log("ultimo elemento: " + carros[carros.length-1])
+
+        carros[3] = "Sandero"
+
+        //inserir elementos final da lista
+        carros[carros.length] = "Honda"
+        carros.push("Polo")
+
+        // remover ultimo elementos da lista e retornar ele
+        console.log(carros.pop())
+
+        //inserir no inicio da lista 
+        carros.unshift("Jetta")
+
+        //remover no inicio da lista
+        carros.shift()
+    </script>
+</html>

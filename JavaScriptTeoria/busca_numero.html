@@ -1,0 +1,25 @@
+<html>
+    <script>
+        /* Função que recebe um número como parametro e 
+        verifica se ele ja existe em uma lista */
+
+        var lista = [19, 34, 18, 11, 98, 44, 87];
+
+        function verificaNumero(numero) {
+            var flag = false;
+            for (var i = 0; i < lista.length; i++){
+                if (numero == lista[i]) {
+                    flag = true
+                    break}
+                };
+            
+            if (flag == true){
+                console.log("O número está na lista");
+            } else {
+                console.log("O número não está na lista");
+            }
+
+            return numero;
+        }
+    </script>
+</html>
