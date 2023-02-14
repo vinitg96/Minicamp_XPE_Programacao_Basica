@@ -1,8 +1,8 @@
 
 # Currículo V2
-Construção de um currículo simples utilizando HTML.
+Construção de um currículo simples utilizando HTML e CSS.
 
-## Objetivo:
+## Objetivos:
 - Exercitar o uso de tags HTML
 - Estilizar com CSS
 
