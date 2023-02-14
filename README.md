@@ -3,7 +3,7 @@
 </a>
 
 
-# Minicamp_XPE_Programacao_Basica
+# Minicamp XPE: Programação Básica
 Projetos Realizados Durante o Minicamp de Programação Básica Ofertado pela XPE Utilizando HTML, CSS e JavaScript.
 
 
