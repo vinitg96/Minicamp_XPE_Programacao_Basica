@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="./css/style.css" />
+
+    <title>IMC</title>
+  </head>
+  <body>
+    <h1>IMC</h1>
+
+    <!-- & indica que vem algo especial depois, nbsp força espaço 
+    type: text or number-->
+    <p>
+      <label for="input_weight"> Peso (kg):&nbsp; </label> <br />
+      <input id="input_weight" type="number" step="0.1" value="74" />
+    </p>
+    <p>
+      <label for="input_height"> Altura (m): </label> <br />
+      <input id="input_height" type="number" step="0.01" value="1.80" />
+    </p>
+
+    <p>
+      <button id="button_calculate_imc">Calcular IMC</button>
+    </p>
+
+    <p id="para_result">
+      O IMC é <strong id="imc_result"></strong>
+    </p>
+
+    <script defer src="./js/script.js"></script>
+  </body>
+</html>
